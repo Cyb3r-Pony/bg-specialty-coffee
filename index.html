@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulgarian Specialty Cafés</title>
+    <link rel="icon" type="image/png" href="images/site-images/favicon-latte.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <button id="langToggle" class="lang-toggle">
+        <span id="langText">BG</span>
+    </button>
+
+    <!-- Main Page -->
+    <div id="mainPage" class="page">
+        <div class="container">
+            <div class="header">
+                <div class="header-content">
+                    <h1 data-i18n="main-title">Bulgarian Specialty Cafés</h1>
+                </div>
+                <p class="subtitle" data-i18n="main-subtitle">Discover the finest specialty coffee spots across Bulgaria</p>
+            </div>
+
+            <div id="mainMap" class="map-container"></div>
+            
+            <button id="resetMapBtn" class="reset-map-btn" data-i18n="reset-map">Reset Map</button>
+
+            <h2 class="section-title" data-i18n="explore-by-city">Explore by City</h2>
+
+            <div id="citiesGrid" class="cities-grid"></div>
+
+            <div class="info-box">
+                <img src="images/site-images/coffee.png" alt="Coffee">
+                <p data-i18n="info-text">Life is too demanding for mediocre coffee.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- City Page -->
+    <div id="cityPage" class="page hidden">
+        <div class="container">
+            <button id="backButton" class="back-button">
+                <svg class="back-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                Back to Home
+            </button>
+
+            <div class="city-header">
+                <h1 id="cityName"></h1>
+            </div>
+
+            <div id="cityImageHeader" class="city-image-header"></div>
+
+            <div id="cityMap" class="map-container"></div>
+            
+            <button id="resetCityMapBtn" class="reset-map-btn" data-i18n="reset-map">Reset Map</button>
+
+            <h2 class="section-title" id="cityListTitle"></h2>
+
+            <div id="cafesGrid" class="cafes-grid"></div>
+
+            <div class="city-quote-box">
+                <img src="images/site-images/coffee-2.jpg" alt="Coffee">
+                <p data-i18n="city-quote">Coffee is simple. Excellence is not.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cafe Detail Modal -->
+    <div id="cafeModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" id="modalCloseBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <img id="modalImage" class="modal-image" alt="">
+            <div class="modal-body">
+                <h2 id="modalName"></h2>
+                <div class="modal-details">
+                    <div class="modal-detail">
+                        <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <p class="detail-label">Address</p>
+                            <p id="modalAddress" class="detail-text"></p>
+                        </div>
+                    </div>
+                    <div class="modal-detail">
+                        <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <div>
+                            <p class="detail-label">Hours</p>
+                            <p id="modalHours" class="detail-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <button id="closeModal" class="close-button">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

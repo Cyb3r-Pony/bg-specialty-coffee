@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Main Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Sofia Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#sofia</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Plovdiv Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#plovdiv</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Varna Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#varna</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Burgas Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#burgas</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Bansko Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#bansko</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Stara Zagora Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#starazagora</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Ruse Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#ruse</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Veliko Tarnovo Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#velikotarnovo</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Pleven Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#pleven</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Gabrovo Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#gabrovo</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Vratza Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#vratza</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Blagoevgrad Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#blagoevgrad</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Gotse Delchev Page -->
+    <url>
+        <loc>https://bg-specialty-coffee.xyz/#gotsedelchev</loc>
+        <lastmod>2025-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+</urlset>

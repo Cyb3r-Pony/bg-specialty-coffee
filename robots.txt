@@ -1,0 +1,33 @@
+# robots.txt for Bulgarian Specialty Cafés
+# Domain: bg-specialty-coffee.xyz
+
+# Allow all search engines to index the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bg-specialty-coffee.xyz/sitemap.xml
+
+# Block access to specific files/folders (optional)
+# This prevents search engines from indexing assets, keeping focus on content
+Disallow: /images/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /data.js
+
+# Crawl delay (optional - be polite to search engines)
+# This prevents overloading your server with too many requests
+Crawl-delay: 5
+
+# Specific search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
