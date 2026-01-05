@@ -13,9 +13,6 @@ A beautiful, interactive web application showcasing specialty coffee shops acros
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Free & Open Source**: No API keys required, completely free to use and modify
 
-## 🚀 Live Demo
-
-[View Live Site](#) *(Add your GitHub Pages URL here)*
 
 ## 📁 Project Structure
 
