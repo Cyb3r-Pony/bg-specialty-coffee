@@ -183,7 +183,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Have questions or suggestions? Feel free to:
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
+- Contact: [pateO_Opate@proton.me]
 
 ---
 
